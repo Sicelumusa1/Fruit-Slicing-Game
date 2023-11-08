@@ -1,0 +1,102 @@
+html {
+    background: radial-gradient(#f0f2f3,#a5a9af);
+    /*height: 100%;*/
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 750px;
+    height: 550px;
+    margin: 20px auto;
+    background-color: #79bff0;
+    border-radius: 10px;
+    box-shadow: 0px 4px #2b8dd3;
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#score {
+    width: 85px;
+    background-color: #efe96f;
+    color: #717b7d;
+    padding: 7px;
+    position: absolute;
+    left: 660px;
+    box-shadow: 0px 3px #999a36
+}
+
+#lives {
+    width: 70px;
+    background-color: #efe96f;
+    padding: 7px;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 0px 3px #999a36;
+    position: absolute;
+}
+
+#screen {
+    width: 650px;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: 0px 3px #373deb;
+    cursor: crosshair;
+    margin: 45px auto 0px auto;
+    position: relative;
+    overflow: hidden
+}
+
+#instruction {
+    background-color: #c969e6;
+    padding: 7px;
+    width: 400px;
+    box-shadow: 0px 3px #7a5289;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#start-reset {
+    background-color: azure;
+    width: 82px;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 0px 3px #318ce1;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#gameover {
+    width: 550px;
+    height: 280px;
+    background: -o-linear-gradient(#f1d65e,#f67803);
+    background: -wedkid-linear-gradient(#f1d65e,#f67803);
+    background: -moz-linear-gradient(#f1d65e,#f67803);
+    background: linear-gradient(#f1d65e,#f67803);
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+
+.life {
+    height: 16px;
+    width: 14px;
+    margin-right: 6px;  
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: -50px;
+}
